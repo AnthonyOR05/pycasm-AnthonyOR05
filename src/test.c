@@ -1,3 +1,20 @@
+// ============================================================
+//   PROGRAM HEADER GENERATOR PRO :: TEST BENCH MODULE
+// ============================================================
+//
+// 📁 Archivo: test.c
+// 🧪 Módulo: GDB / ASM FUNCTIONALITY TEST SUITE
+// 🎓 Asignatura: Lenguajes de Interfaz (TECNM Campus ITT)
+// 👤 Autor: Ordoñez Marrufo Anthony - 23212033
+// 📅 Fecha: 2026/04/16
+//
+// 💡 Descripción:
+// Programa de pruebas en C para validar la integración entre
+// funciones en ensamblador ARM64 y funciones en C.
+// Incluye pruebas de operaciones básicas, manejo de arreglos
+// y verificación de consistencia entre implementaciones.
+//
+// ============================================================
 #include <stdio.h>
 
 // =========================================
