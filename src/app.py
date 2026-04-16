@@ -1,3 +1,17 @@
+# ============================================================
+#   PROGRAM HEADER GENERATOR PRO :: PYTHON MODULE
+# ============================================================
+
+# 📁 Archivo: app.py
+# 🎓 Asignatura: Lenguajes de Interfaz (TECNM Campus ITT)
+# 👤 Autor: Ordoñez Marrufo Anthony - 23212033
+# 📅 Fecha: 2026/04/16
+#
+# 💡 Descripción:
+# Interfaz en Python para ejecutar y gestionar código ensamblador (ASM)
+# mediante llamadas al sistema y control de procesos.
+#
+# ============================================================
 # =========================================
 # ARM64 HIGH PERFORMANCE OPS LIBRARY
 # Archivo: app.py
