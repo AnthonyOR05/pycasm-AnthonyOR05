@@ -1,3 +1,17 @@
+/* ============================================================
+   PROGRAM HEADER GENERATOR PRO :: C BRIDGE MODULE
+   ============================================================
+
+📁 Archivo: bridge.c
+🎓 Asignatura: Lenguajes de Interfaz (TECNM Campus ITT)
+👤 Autor: Ordoñez Marrufo Anthony - 23212033
+📅 Fecha: 2026/04/16
+
+💡 Descripción:
+Módulo en C que actúa como puente entre Python y código ASM,
+gestionando llamadas, memoria y comunicación de bajo nivel.
+
+============================================================ */
 #include <stdio.h>
 
 // ASM functions
