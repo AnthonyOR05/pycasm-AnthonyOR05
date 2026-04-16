@@ -9,14 +9,29 @@ all: $(BUILD)/libops.so
 $(BUILD):
 	mkdir -p $(BUILD)
 
+# -----------------------------------------
+# OBJETOS
+# -----------------------------------------
 $(BUILD)/ops.o: src/ops.s | $(BUILD)
-	$(CC) -c $< -o $@
+	$(CC) -g -c $< -o $@
 
 $(BUILD)/bridge.o: src/bridge.c | $(BUILD)
 	$(CC) $(CFLAGS) -c $< -o $@
 
+# -----------------------------------------
+# LIBRERÍA
+# -----------------------------------------
 $(BUILD)/libops.so: $(BUILD)/ops.o $(BUILD)/bridge.o
-	$(CC) $(LDFLAGS) -o $@ $^
+	$(CC) $(LDFLAGS) -g -o $@ $^
 
+# -----------------------------------------
+# 🐛 DEBUG TEST BINARIO (NUEVO)
+# -----------------------------------------
+$(BUILD)/test: src/test.c $(BUILD)/ops.o $(BUILD)/bridge.o | $(BUILD)
+	$(CC) -O0 -g src/test.c $(BUILD)/ops.o $(BUILD)/bridge.o -o $(BUILD)/test
+
+# -----------------------------------------
+# CLEAN
+# -----------------------------------------
 clean:
 	rm -rf build/*
