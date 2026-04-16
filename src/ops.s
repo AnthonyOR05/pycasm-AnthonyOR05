@@ -1,3 +1,20 @@
+// ============================================================
+//   PROGRAM HEADER GENERATOR PRO :: ARM64 MODULE
+// ============================================================
+//
+// 📁 Archivo: ops.s
+// 🧠 Módulo: ARM64 HIGH PERFORMANCE OPS LIBRARY
+// 🎓 Asignatura: Lenguajes de Interfaz (TECNM Campus ITT)
+// 👤 Autor: Ordoñez Marrufo Anthony - 23212033
+// 📅 Fecha: 2026/04/16
+//
+// 💡 Descripción:
+// Biblioteca de funciones en ensamblador ARM64 para operaciones
+// aritméticas y procesamiento de arreglos en alto rendimiento.
+// Incluye suma, resta, multiplicación, suma de arreglos,
+// conteo de números pares y producto punto.
+//
+// ============================================================
 // =========================================
 // ARM64 HIGH PERFORMANCE OPS LIBRARY
 // Archivo: ops.s
